@@ -8,7 +8,8 @@
   <artifactId>org.lyg</artifactId>
   <version>1.0-SNAPSHOT</version>
   <modules>
-    <module>redis-ocean</module>
+    <module>util-ocean</module>
+    <module>mq-ocean</module>
   </modules>
   <packaging>pom</packaging>
 
