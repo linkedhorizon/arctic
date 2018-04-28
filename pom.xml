@@ -10,6 +10,7 @@
   <modules>
     <module>util-ocean</module>
     <module>mq-ocean</module>
+    <module>base-ocean</module>
   </modules>
   <packaging>pom</packaging>
 
