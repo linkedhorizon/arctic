@@ -9,9 +9,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>mq-ocean</artifactId>
+    <artifactId>database-ocean</artifactId>
 
-    <name>mq-ocean</name>
+    <name>database-ocean</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
 
@@ -28,11 +28,10 @@
             <version>4.11</version>
             <scope>test</scope>
         </dependency>
-        <!--base activmq引入的包-->
         <dependency>
-            <groupId>org.apache.activemq</groupId>
-            <artifactId>activemq-all</artifactId>
-            <version>5.9.0</version>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.38</version>
         </dependency>
     </dependencies>
 

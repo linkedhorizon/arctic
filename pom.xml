@@ -11,6 +11,10 @@
     <module>util-ocean</module>
     <module>mq-ocean</module>
     <module>base-ocean</module>
+    <module>app</module>
+    <module>webapp</module>
+    <module>database-ocean</module>
+    <module>shiro-ocean</module>
   </modules>
   <packaging>pom</packaging>
 
