@@ -9,10 +9,10 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  */
 public class App 
 {
-    public static void main( String[] args )
-    {
-        ApplicationContext context = new ClassPathXmlApplicationContext("bean1.xml");
-        User user = (User)context.getBean("user");
-        System.out.println(user.getPassword());
+    public static void main( String[] args ) throws CloneNotSupportedException {
+        String num = "34";
+        int i = Integer.parseInt(num);
+        System.out.println(i);
+
     }
 }

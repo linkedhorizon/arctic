@@ -3,7 +3,7 @@ package arctic;
 /**
  * Created by Administrator on 2018/5/1 0001.
  */
-public class User {
+public class User implements Cloneable{
     private String name;
     private String password;
     private int age;
@@ -30,5 +30,10 @@ public class User {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
     }
 }
