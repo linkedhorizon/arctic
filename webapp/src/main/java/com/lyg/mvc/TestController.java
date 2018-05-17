@@ -17,7 +17,6 @@ public class TestController {
     @RequestMapping("mvc")
     public void indexTest(HttpServletRequest request, HttpServletResponse response) throws IOException {
         response.getWriter().print("sakura");
-        DispatcherServlet dispatcherServlet = new DispatcherServlet();
 
     }
 

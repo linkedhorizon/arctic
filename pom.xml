@@ -17,6 +17,7 @@
     <module>shiro-ocean</module>
     <module>annotation</module>
     <module>annotation-ocean</module>
+    <module>extend-ocean</module>
   </modules>
   <packaging>pom</packaging>
 
