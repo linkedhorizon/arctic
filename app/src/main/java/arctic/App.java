@@ -1,26 +1,17 @@
 package arctic;
 
-
-import java.io.File;
-import java.io.FileInputStream;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Hashtable;
-import java.util.Stack;
-
 /**
- * Hello world!
- *
+ * Created by Administrator on 2018/5/22 0022.
  */
 public class App {
-    public App(){
-        System.out.println("无参构造方法");
-    }
-    public static App app1 = new App();
-    {
-        System.out.println("block A");
-    }
-    static {
-        System.out.println("block B");
+    public static void main(String[] args){
+        Thread t = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                System.out.println("put");
+            }
+        });
+        t.start();
+
     }
 }

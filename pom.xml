@@ -18,6 +18,7 @@
     <module>annotation</module>
     <module>annotation-ocean</module>
     <module>extend-ocean</module>
+    <module>thread-ocean</module>
   </modules>
   <packaging>pom</packaging>
 
