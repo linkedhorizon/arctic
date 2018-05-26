@@ -96,5 +96,10 @@
         * ConcurrentHashMap
         * CopyOnWriteArrayList
         * CopyOnWriteArraySet
+        * ConcurrentSkipListMap
+        * ConcurrentSkipListSet
     * 传统方式下的Collection在迭代集合时，不允许对集合进行修改
         * 修改集合，会出现ConcurrentModificationException
+
+----
+黑马程序员_张孝祥_Java多线程与并发库 --来源
