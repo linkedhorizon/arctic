@@ -11,11 +11,7 @@
     <module>util-ocean</module>
     <module>mq-ocean</module>
     <module>base-ocean</module>
-    <module>app</module>
-    <module>webapp</module>
     <module>database-ocean</module>
-    <module>shiro-ocean</module>
-    <module>annotation</module>
     <module>annotation-ocean</module>
     <module>extend-ocean</module>
     <module>thread-ocean</module>
